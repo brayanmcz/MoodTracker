@@ -1,3 +1,22 @@
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    appId      : {{ appID }},
+    xfbml      : true,
+    version    : 'v2.12'
+  });
+  FB.AppEvents.logPageView();
+};
+
+(function(d, s, id){
+   var js, fjs = d.getElementsByTagName(s)[0];
+   if (d.getElementById(id)) {return;}
+   js = d.createElement(s); js.id = id;
+   js.src = "https://connect.facebook.net/en_US/sdk.js";
+   fjs.parentNode.insertBefore(js, fjs);
+ }(document, 'script', 'facebook-jssdk'));
+</script>
+
 <div class="container-fluid background">
   <div class="row">
     <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 login-sec">
@@ -6,7 +25,7 @@
           <h1 class="header">
             MOOD TRACKER
           </h1>
-          <p>
+          <p class="sub-header">
             Choose one of the methods below to
             <br />
             Login or Sign Up

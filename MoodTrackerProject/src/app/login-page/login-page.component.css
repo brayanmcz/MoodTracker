@@ -5,7 +5,7 @@
 }
 
 .login-sec{
-  background-color: white;
+  background-color: #eeeeee;
   margin: auto;
   height: 80vh;
   margin-top: 10vh;
@@ -18,16 +18,21 @@
   text-align: center;
   padding-top: 5vh;
   padding-bottom: 5vh;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 .firebase-ui{
   margin: auto;
-  margin-top: 25vh;
+  margin-top: 25%;
   margin-bottom: 15vh;
 }
 
 .header{
   font-weight: bolder;
+  font-size: 4vh;
+}
+
+.sub-header{
+  font-size: 2vh;
 }

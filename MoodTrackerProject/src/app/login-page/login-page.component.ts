@@ -6,8 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login-page.component.css']
 })
 export class LoginPageComponent implements OnInit {
+  appID: string;
 
-  constructor() { }
+  constructor() {
+    this.appID = '544278815957626' //Provided in facebook developers app settings
+  }
 
   ngOnInit() {
   }
