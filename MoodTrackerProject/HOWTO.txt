@@ -1,0 +1,9 @@
+//TEAM MEMBERS: Brayan Castro
+                Joseph Hernandez
+                Jordan Bienz
+
+HOW TO ADD BOOTSTRAP TO ANGULAR5 PROJECT
+https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/
+
+HOW TO ADD FIREBASE TO YOUR ANGULAR5 PROJECT
+https://medium.com/codingthesmartway-com-blog/building-an-angular-5-project-with-bootstrap-4-and-firebase-4504ff7717c1
