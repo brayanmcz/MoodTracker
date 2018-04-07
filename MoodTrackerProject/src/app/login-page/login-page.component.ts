@@ -9,10 +9,10 @@ export class LoginPageComponent implements OnInit {
   appID: string;
 
   constructor() {
-    this.appID = '544278815957626' //Provided in facebook developers app settings
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
+    this.appID = '544278815957626' //Provided in facebook developers app settings
   }
 
 }

@@ -1,13 +1,12 @@
 .background{
   background: linear-gradient(to bottom right, purple, blue);
-  height: 100vh;
-  width: 100vw;
+  background-size: cover;
 }
 
 .login-sec{
   background-color: #eeeeee;
   margin: auto;
-  height: 80vh;
+  min-height: 80vh;
   margin-top: 10vh;
   margin-bottom: 10vh;
   border-radius: 5px;
@@ -22,10 +21,23 @@
   padding-right: 2vw;
 }
 
+.login-sec-header-sub{
+  text-align: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.firebase{
+  position: relative;
+  bottom: 0px;
+  margin-top:25vh;
+}
+
 .firebase-ui{
   margin: auto;
   margin-top: 25%;
-  margin-bottom: 15vh;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .header{
@@ -35,4 +47,5 @@
 
 .sub-header{
   font-size: 2vh;
+
 }
