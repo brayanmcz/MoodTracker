@@ -21,3 +21,13 @@
   padding-left: 5vw;
   padding-right: 5vw;
 }
+
+.firebase-ui{
+  margin: auto;
+  margin-top: 25vh;
+  margin-bottom: 15vh;
+}
+
+.header{
+  font-weight: bolder;
+}
