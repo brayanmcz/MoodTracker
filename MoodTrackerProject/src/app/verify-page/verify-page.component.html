@@ -1,3 +1,58 @@
-<p>
-  verify-page works!
-</p>
+<div class="container-fluid background">
+  <div class="row">
+    <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 login-sec">
+      <div class="row">
+        <div class="col-12 login-sec-header">
+          <h1 class="header">
+            MOOD TRACKER
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 login-sec-header-sub">
+          <p class="sub-header">
+            Verify your information below to continue
+          </p>
+        </div>
+      </div>
+      <div class="row inputs">
+        <div class="col-12">
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text input-tag" id="basic-addon1">First</span>
+            </div>
+            <input type="text" class="form-control" [(ngModel)]="user.firstName" placeholder="First Name">
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text input-tag" id="basic-addon1">Last</span>
+            </div>
+            <input type="text" class="form-control" [(ngModel)]="user.lastName"  placeholder="Last Name">
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text input-tag" id="basic-addon1">Email</span>
+            </div>
+            <input type="text" class="form-control" [(ngModel)]="user.email"  placeholder="Name">
+          </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text input-tag" id="basic-addon1">Birthdate</span>
+            </div>
+            <input type="date" class="form-control" [(ngModel)]="user.birthday">
+          </div>
+
+          <div class="button-sec">
+            <div class="spacer"></div>
+            <button class="btn" (click)="clearForm()" >CLEAR</button>
+            <button class="btn" >SUBMIT</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
