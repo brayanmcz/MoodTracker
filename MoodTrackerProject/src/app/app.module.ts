@@ -48,7 +48,7 @@ const firebaseUiAuthConfig: FirebaseUIAuthConfig = {
   method: AuthMethods.Popup,
   tos: 'https://google.com',
   credentialHelper: CredentialHelper.OneTap,
-  signInSuccessUrl: "./main"
+  signInSuccessUrl: "./verify"
 };
 
 @NgModule({
