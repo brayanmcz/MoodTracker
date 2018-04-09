@@ -8,5 +8,8 @@ https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/
 HOW TO ADD FIREBASE TO YOUR ANGULAR5 PROJECT
 https://medium.com/codingthesmartway-com-blog/building-an-angular-5-project-with-bootstrap-4-and-firebase-4504ff7717c1
 
+HOW TO ADD FIREBASE AUTH UI TO ANGULAR5 PROJECT
+https://github.com/RaphaelJenni/FirebaseUI-Angular
+
 HOW TO CAPTURE THE CAMERA IN ANGULAR5 PROJECT
-https://blog.cloudboost.io/capturing-camera-using-angular-5-2e177c68201f
+https://github.com/basst314/ngx-webcam
