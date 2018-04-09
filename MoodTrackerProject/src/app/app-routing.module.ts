@@ -7,13 +7,13 @@ import { RouterModule, Routes } from '@angular/router';
 //       add it to the routes definition below.
 
 import { LoginPageComponent } from './login-page/login-page.component';
-import { MainPageComponent } from './main-page/main-page.component';
 import { VerifyPageComponent } from './verify-page/verify-page.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginPageComponent },
-  { path: 'main', component: MainPageComponent },
-  { path: 'verify', component: VerifyPageComponent }
+  { path: 'verify', component: VerifyPageComponent },
+  { path: 'main', component: MainPageComponent}
 ]
 
 @NgModule({
