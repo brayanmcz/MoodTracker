@@ -1,0 +1,79 @@
+
+.background{
+  background: linear-gradient(to bottom right, purple, blue);
+  background-size: cover;
+}
+
+.login-sec{
+  background-color: #eeeeee;
+  margin: auto;
+  min-height: 80vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.login-sec-header{
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.login-sec-header-sub{
+  text-align: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.inputs{
+  position: relative;
+  bottom: 0px;
+  margin-top: 5vh;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.header{
+  font-weight: bolder;
+  font-size: 4vh;
+}
+
+.sub-header{
+  font-size: 2vh;
+}
+
+.form-control, .input-tag, .btn{
+  font-size: 1.5vh;
+}
+
+.input-tag{
+  min-width: 70px;
+}
+
+.btn {
+  border: 2px solid purple;
+  background-color: white;
+  border-radius: 5px;
+  color: purple;
+}
+
+.webcam-container {
+  margin: auto;
+  margin: 15px;
+}
+
+.actionBtn {
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+.snapshot {
+  text-align: center;
+}
+
+ul {
+  padding-bottom: 20px;
+}
