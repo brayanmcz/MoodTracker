@@ -6,7 +6,6 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { LoginPageComponent } from './login-page/login-page.component';
-import { MainPageComponent } from './main-page/main-page.component';
 
 import { AuthMethods,
          AuthProvider,
@@ -21,6 +20,10 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 import { environment } from './../environments/environment';
 import { VerifyPageComponent } from './verify-page/verify-page.component';
+import { MainPageComponent } from './main-page/main-page.component';
+
+import { WebcamModule } from 'ngx-webcam';
+
 
 const facebookCustomConfig: AuthProviderWithCustomConfig = {
   provider: AuthProvider.Facebook,
@@ -55,8 +58,8 @@ const firebaseUiAuthConfig: FirebaseUIAuthConfig = {
   declarations: [
     AppComponent,
     LoginPageComponent,
-    MainPageComponent,
-    VerifyPageComponent
+    VerifyPageComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
@@ -67,6 +70,7 @@ const firebaseUiAuthConfig: FirebaseUIAuthConfig = {
     AngularFireAuthModule,
     AngularFireModule.initializeApp(environment.firebase),
     FirebaseUIModule.forRoot(firebaseUiAuthConfig),
+    WebcamModule
   ],
   providers: [],
   bootstrap: [AppComponent]
