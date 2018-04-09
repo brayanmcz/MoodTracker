@@ -1,8 +1,4 @@
 <div style="text-align:center">
-  <h1>
-    Ngx-Webcam Demo
-  </h1>
-
   <div>
     <webcam [trigger]="triggerObservable" (imageCapture)="handleImage($event)" *ngIf="showWebcam"></webcam>
     <br/>
@@ -11,7 +7,15 @@
   </div>
 </div>
 
-<div class="snapshot" *ngIf="webcamImage">
-  <h2>Nice one!</h2>
-  <img [src]="webcamImage.imageAsDataUrl"/>
+<div id="wrapper" style="width:1020px; display:table;">
+    <div id="jsonOutput" style="width:600px; display:table-cell;">
+        Response:
+        <br><br>
+        <textarea id="responseTextArea" class="UIInput" style="width:580px; height:400px;"></textarea>
+    </div>
+
+    <div class="snapshot" *ngIf="webcamImage">
+      <h2>Nice one!</h2>
+      <img [src]="webcamImage.imageAsDataUrl"/>
+    </div>
 </div>

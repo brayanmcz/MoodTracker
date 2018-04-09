@@ -1,3 +1,10 @@
+#results {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
+
 
 .background{
   background: linear-gradient(to bottom right, purple, blue);
