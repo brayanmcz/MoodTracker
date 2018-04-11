@@ -5,6 +5,24 @@
   margin: 1em 0;
 }
 
+.info-holder {
+  padding: 35px
+}
+
+#responseTextArea{
+  padding-top: 15px;
+}
+
+.screenshot {
+  margin: 0;
+  padding: 0;
+}
+
+.images {
+  margin-left: 0;
+  margin-top: 15px;
+  float: left;
+}
 
 .background{
   background: linear-gradient(to bottom right, purple, blue);

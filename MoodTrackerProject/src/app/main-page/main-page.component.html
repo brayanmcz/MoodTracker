@@ -1,21 +1,56 @@
-<div style="text-align:center">
-  <div>
-    <webcam [trigger]="triggerObservable" (imageCapture)="handleImage($event)" *ngIf="showWebcam"></webcam>
-    <br/>
-    <button class="actionBtn" (click)="triggerSnapshot();">Take A Snapshot</button>
-    <button class="actionBtn" (click)="toggleWebcam();">Toggle Webcam</button>
+<div class="container-fluid background">
+  <div class="row">
+    <div class="col-10 login-sec">
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-12">
+              <div class="images">
+                <webcam [trigger]="triggerObservable" (imageCapture)="handleImage($event)" *ngIf="showWebcam"></webcam>
+                <!-- <img class="screenshot" [src]="webcamImage.imageAsDataUrl"/> -->
+                <button class="actionBtn btn" (click)="triggerSnapshot();">Take Snapshot</button>
+                <button class="actionBtn btn" (click)="showJSON();" >Show JSON</button>
+                <div class="row">
+                  <div class="col-4">
+                    <h3>Gender: </h3>
+                    <h3>Approx Age: </h3>
+                    <h3>Glasses: </h3>
+                    <h3>Emotion: </h3>
+                    <h3>Hair: </h3>
+                  </div>
+                  <div class="col-8">
+                    <h3><span id="gender"></span></h3>
+                    <h3><span id="age"></span></h3>
+                    <h3><span id="glasses"></span></h3>
+                    <h3><span id="emotion"></span></h3>
+                    <h3><span id="hairColor"></span></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" *ngIf="showJSONBool">
+            <div class="col-6">
+              <div id="wrapper" style="width:1020px; display:table;">
+                <div id="jsonOutput" style="width:600px; display:table-cell;">
+                  <textarea id="responseTextArea" class="UIInput" style="width:640px; height:200px;" >Take Snapshot to show data from API</textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 info-holder">
+          <div class="row">
+            <div class="col-12">
+              <div>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-
-<div id="wrapper" style="width:1020px; display:table;">
-    <div id="jsonOutput" style="width:600px; display:table-cell;">
-        Response:
-        <br><br>
-        <textarea id="responseTextArea" class="UIInput" style="width:580px; height:400px;"></textarea>
-    </div>
-
-    <div class="snapshot" *ngIf="webcamImage">
-      <h2>Nice one!</h2>
-      <img [src]="webcamImage.imageAsDataUrl"/>
-    </div>
 </div>
