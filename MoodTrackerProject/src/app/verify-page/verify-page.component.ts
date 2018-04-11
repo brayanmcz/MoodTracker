@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {AngularFireAuth} from 'angularfire2/auth';
-import {FirebaseUISignInSuccess} from 'firebaseui-angular';
-import { AngularFireDatabase } from 'angularfire2/database'
+import { AngularFireAuth } from 'angularfire2/auth';
+import { FirebaseUISignInSuccess } from 'firebaseui-angular';
+import { AngularFireDatabase } from 'angularfire2/database';
 
 
 @Component({
