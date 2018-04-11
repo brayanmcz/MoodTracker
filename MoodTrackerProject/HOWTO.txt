@@ -1,7 +1,16 @@
 //TEAM MEMBERS: Brayan Castro
                 Joseph Hernandez
                 Jordan Bienz
+-------------------------------------------------------------------------------
+PROBLEMS WE ENCOUNTERED
+-------------------------------------------------------------------------------
+- Could not send base64 data to Azure Face API, needed to learn how to convert
+to blog and send it using jQuery, needed to learn jQuery, needed to learn how to
+work with POST requests
 
+-------------------------------------------------------------------------------
+COOL TECHNOLOGIES WE LEARNED
+-------------------------------------------------------------------------------
 HOW TO ADD BOOTSTRAP TO ANGULAR5 PROJECT
 https://loiane.com/2017/08/how-to-add-bootstrap-to-an-angular-cli-project/
 
@@ -13,3 +22,14 @@ https://github.com/RaphaelJenni/FirebaseUI-Angular
 
 HOW TO CAPTURE THE CAMERA IN ANGULAR5 PROJECT
 https://github.com/basst314/ngx-webcam
+
+CONVERT Base64 TO blog
+https://jsfiddle.net/b1zzpvye/
+
+
+
+--------------------------------------------------------------------------------
+INTERESTING STUFF
+--------------------------------------------------------------------------------
+REACT-NATIVE STUFF
+https://www.icicletech.com/blog/react-native-starter-kits
