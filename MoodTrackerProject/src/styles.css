@@ -1,3 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import '~firebaseui/dist/firebaseui.css'
+@import '~firebaseui/dist/firebaseui.css';
+
+.background{
+  background: linear-gradient(to bottom right, purple, blue);
+  background-size: cover;
+  height: 100vh;
+}
+
+.login-sec{
+  background-color: #eeeeee;
+  margin: auto;
+  min-height: 80vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px;
+}
+
+.login-sec-header{
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.login-sec-header-sub{
+  text-align: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.firebase{
+  position: relative;
+  bottom: 0px;
+  margin-top:25vh;
+}
+
+.firebase-ui{
+  margin: auto;
+  margin-top: 25%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header{
+  font-weight: bolder;
+  font-size: 4vh;
+}
+
+.sub-header{
+  font-size: 2vh;
+
+}
